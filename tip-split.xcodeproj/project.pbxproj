@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865BCD0128C92E2E00EFC004 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865BCD0028C92E2E00EFC004 /* LaunchView.swift */; };
+		865BCD0328C92E3500EFC004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865BCD0228C92E3500EFC004 /* LaunchScreen.storyboard */; };
 		86A79C2C28C8200000DB35C4 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A79C2B28C8200000DB35C4 /* HTTPMethod.swift */; };
 		86A79C2F28C8218300DB35C4 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A79C2E28C8218300DB35C4 /* Post.swift */; };
 		86A79C3E28C825DD00DB35C4 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A79C3D28C825DD00DB35C4 /* APIClientTests.swift */; };
@@ -16,10 +18,12 @@
 		86B6736628C8167F0069CE66 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B6736528C8167F0069CE66 /* NetworkDispatcher.swift */; };
 		86B6736928C817AB0069CE66 /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B6736828C817AB0069CE66 /* NetworkRequestError.swift */; };
 		86B6736B28C819A00069CE66 /* NetworkDispatcher+TipSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B6736A28C819A00069CE66 /* NetworkDispatcher+TipSplit.swift */; };
+		86D452EA28C9360C00DA5E97 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D452E928C9360C00DA5E97 /* AppState.swift */; };
+		86D452EC28C9364300DA5E97 /* AppScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D452EB28C9364300DA5E97 /* AppScreens.swift */; };
+		86D452EE28C9372000DA5E97 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D452ED28C9372000DA5E97 /* LaunchViewModel.swift */; };
 		E422CD1228C7A4A200B41332 /* tip_splitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422CD1128C7A4A200B41332 /* tip_splitApp.swift */; };
 		E422CD1428C7A4A200B41332 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422CD1328C7A4A200B41332 /* ContentView.swift */; };
 		E422CD1628C7A4A400B41332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E422CD1528C7A4A400B41332 /* Assets.xcassets */; };
-		E422CD1928C7A4A400B41332 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E422CD1828C7A4A400B41332 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865BCD0028C92E2E00EFC004 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		865BCD0228C92E3500EFC004 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A79C2B28C8200000DB35C4 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		86A79C2E28C8218300DB35C4 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		86A79C3428C8252300DB35C4 /* tip-splitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tip-splitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,11 +49,13 @@
 		86B6736528C8167F0069CE66 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
 		86B6736828C817AB0069CE66 /* NetworkRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
 		86B6736A28C819A00069CE66 /* NetworkDispatcher+TipSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkDispatcher+TipSplit.swift"; sourceTree = "<group>"; };
-		E422CD0E28C7A4A200B41332 /* tip-split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D452E928C9360C00DA5E97 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		86D452EB28C9364300DA5E97 /* AppScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreens.swift; sourceTree = "<group>"; };
+		86D452ED28C9372000DA5E97 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		E422CD0E28C7A4A200B41332 /* Tip Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E422CD1128C7A4A200B41332 /* tip_splitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_splitApp.swift; sourceTree = "<group>"; };
 		E422CD1328C7A4A200B41332 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E422CD1528C7A4A400B41332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E422CD1828C7A4A400B41332 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		865BCCFF28C92E2300EFC004 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				865BCD0228C92E3500EFC004 /* LaunchScreen.storyboard */,
+				865BCD0028C92E2E00EFC004 /* LaunchView.swift */,
+				86D452ED28C9372000DA5E97 /* LaunchViewModel.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
 		86A79C2D28C8217700DB35C4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +126,7 @@
 			children = (
 				86B6736828C817AB0069CE66 /* NetworkRequestError.swift */,
 				86A79C2B28C8200000DB35C4 /* HTTPMethod.swift */,
+				86D452EB28C9364300DA5E97 /* AppScreens.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -124,7 +143,7 @@
 		E422CD0F28C7A4A200B41332 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E422CD0E28C7A4A200B41332 /* tip-split.app */,
+				E422CD0E28C7A4A200B41332 /* Tip Split.app */,
 				86A79C3428C8252300DB35C4 /* tip-splitTests.xctest */,
 			);
 			name = Products;
@@ -133,20 +152,11 @@
 		E422CD1028C7A4A200B41332 /* tip-split */ = {
 			isa = PBXGroup;
 			children = (
-				E422CD1728C7A4A400B41332 /* Preview Content */,
 				E422CD1F28C7A54900B41332 /* Resources */,
 				E422CD2028C7A5CE00B41332 /* Source */,
 				E422CD2128C7A5D400B41332 /* SupportingFiles */,
 			);
 			path = "tip-split";
-			sourceTree = "<group>";
-		};
-		E422CD1728C7A4A400B41332 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E422CD1828C7A4A400B41332 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		E422CD1F28C7A54900B41332 /* Resources */ = {
@@ -173,6 +183,7 @@
 		E422CD2128C7A5D400B41332 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				86D452E928C9360C00DA5E97 /* AppState.swift */,
 				E422CD1128C7A4A200B41332 /* tip_splitApp.swift */,
 			);
 			path = SupportingFiles;
@@ -188,6 +199,7 @@
 		E422CD2628C7A62900B41332 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				865BCCFF28C92E2300EFC004 /* Launch */,
 				E422CD1328C7A4A200B41332 /* ContentView.swift */,
 			);
 			path = Sections;
@@ -228,7 +240,7 @@
 			);
 			name = "tip-split";
 			productName = "tip-split";
-			productReference = E422CD0E28C7A4A200B41332 /* tip-split.app */;
+			productReference = E422CD0E28C7A4A200B41332 /* Tip Split.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E422CD1928C7A4A400B41332 /* Preview Assets.xcassets in Resources */,
+				865BCD0328C92E3500EFC004 /* LaunchScreen.storyboard in Resources */,
 				E422CD1628C7A4A400B41332 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,11 +315,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B6736B28C819A00069CE66 /* NetworkDispatcher+TipSplit.swift in Sources */,
+				865BCD0128C92E2E00EFC004 /* LaunchView.swift in Sources */,
 				E422CD1428C7A4A200B41332 /* ContentView.swift in Sources */,
+				86D452EA28C9360C00DA5E97 /* AppState.swift in Sources */,
 				86B6735C28C811C30069CE66 /* Request.swift in Sources */,
 				86B6736228C8134F0069CE66 /* Request+TipSplit.swift in Sources */,
 				86B6736628C8167F0069CE66 /* NetworkDispatcher.swift in Sources */,
 				86A79C2C28C8200000DB35C4 /* HTTPMethod.swift in Sources */,
+				86D452EC28C9364300DA5E97 /* AppScreens.swift in Sources */,
+				86D452EE28C9372000DA5E97 /* LaunchViewModel.swift in Sources */,
 				86B6736928C817AB0069CE66 /* NetworkRequestError.swift in Sources */,
 				86A79C2F28C8218300DB35C4 /* Post.swift in Sources */,
 				86B6736428C816150069CE66 /* APIClient.swift in Sources */,
@@ -500,9 +516,11 @@
 				DEVELOPMENT_TEAM = AUFZ67XMVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,7 +529,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.portfolio.tip-split.tip-split";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip Split";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,9 +547,11 @@
 				DEVELOPMENT_TEAM = AUFZ67XMVW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +560,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.portfolio.tip-split.tip-split";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip Split";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

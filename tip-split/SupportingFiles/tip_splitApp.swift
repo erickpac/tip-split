@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct tip_splitApp: App {
+    
+    @StateObject var appState: AppState = .shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            switch appState.currentScreen {
+            case .launch:
+                LaunchView()
+            case .home:
+                ContentView()
+            }
         }
     }
 }
